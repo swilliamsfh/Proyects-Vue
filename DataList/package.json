@@ -1,0 +1,32 @@
+{
+  "name": "datalist",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.21.0",
+    "bootstrap": "^5.3.8",
+    "datatables.net-columncontrol-dt": "^2.1.2",
+    "datatables.net-dt": "^3.1.4",
+    "datatables.net-responsive-dt": "^4.1.1",
+    "datatables.net-select-dt": "^4.1.1",
+    "datatables.net-vue3": "^3.0.8",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.42",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.2.2",
+    "vite-plugin-vue-devtools": "^8.2.1"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  }
+}
