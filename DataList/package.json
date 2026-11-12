@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "axios": "^1.21.0",
+    "ag-grid-community": "^36.3.0",
+    "ag-grid-enterprise": "^36.3.0",
+    "ag-grid-vue3": "^36.3.0",
+    "axios": "^1.21.1",
     "bootstrap": "^5.3.8",
     "datatables.net-columncontrol-dt": "^2.1.2",
     "datatables.net-dt": "^3.1.4",

@@ -135,7 +135,7 @@ const getAll = async () => {
       id: item.id,
       nombre: item.name,
       title: item.title,
-      square: item.square, // Ajusta según las propiedades que devuelva tu servidor
+      square: item.square,
     }));
     cargando.value = false;
     //console.log(list.value);
