@@ -15,7 +15,7 @@
 import { useAuthStore } from "@/store/auth";
 
 const authStore = useAuthStore();
-console.log("authStore.showHide:", authStore.showHide);
+
 function logout() {
   authStore.logout();
 }

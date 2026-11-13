@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-axios.defaults.withCredentials = true;
-axios.defaults.xsrfCookieName = 'XSRF-TOKEN'; // Cambia por el nombre que use tu backend (ej. '_csrf')
-axios.defaults.xsrfHeaderName = 'X-XSRF-TOKEN'; // El header estándar que espera el backend
-
-const axiosInstance = axios.create({
-    baseURL: 'http://localhost:8080/api/v1/',
-    withCredentials: true, 
+const axiosClient = axios.create({
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8080/api/v1/',
+  timeout: 10000,
+  headers: {
+    'Content-Type': 'application/json',
+    Accept: 'application/json'
+  }
 });
 
-export default axiosInstance;
+export default axiosClient;
